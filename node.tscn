@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://onsee3yyrhyw"]
+
+[ext_resource type="Script" uid="uid://b6yc8kt5w73tg" path="res://character_body_2d.gd" id="1_sy5k4"]
+
+[node name="Node" type="Node"]
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="Node2D"]
+script = ExtResource("1_sy5k4")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Node2D/CharacterBody2D"]
+
+[node name="Camera2D" type="Camera2D" parent="Node2D/CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Node2D/CharacterBody2D"]
