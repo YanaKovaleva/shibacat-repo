@@ -14,7 +14,7 @@ animations = [{
 "texture": ExtResource("3_e2u21")
 }],
 "loop": true,
-"name": &"default",
+"name": &"sitting",
 "speed": 3.0
 }]
 
@@ -33,4 +33,4 @@ script = ExtResource("1_sy5k4")
 position = Vector2(6.1, 0)
 scale = Vector2(0.2, 0.226)
 sprite_frames = SubResource("SpriteFrames_bss38")
-frame_progress = 0.310916
+animation = &"sitting"
